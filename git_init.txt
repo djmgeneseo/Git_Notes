@@ -1,0 +1,3 @@
+git init
+- initializes or creates a new Git repository in current directory
+- git does NOT create initial commit with initialization

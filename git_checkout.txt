@@ -1,0 +1,3 @@
+git checkout 4035769377cce96a88d5c1167079e12f30492391
+- open git bash in asteroids folder, switches index version to this iteration of code.
+- your folder will update automatically. Manually run index html file.

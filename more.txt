@@ -1,0 +1,5 @@
+git config --global core.editor "'C:/Program Files/Sublime Text 3/sublime_text.exe' -n -w"
+- Allocates sublime as global editor
+
+ls -a
+- reveals hidden documentation in directory

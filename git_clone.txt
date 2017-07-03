@@ -1,0 +1,8 @@
+'git clone [url without brackets]'
+- Downloads github repository from website url
+- type in 'cd [name of repository]'
+- type 'git log' to trace change log
+- type 'git diff' followed by a space, followed by the id# next to an older 'commit', followed by a space, followed by the newer 'commit' id#. Ex:
+	 git diff 3e42136a76cf78c6c421cd720427bf6337c2d623 3884eab839af1e82c44267484cf2945a766081f3
+
+- might need to scroll down or hit enter to see all results

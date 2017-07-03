@@ -1,0 +1,1 @@
+-'HEAD' means the current commit. 
