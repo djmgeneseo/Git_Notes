@@ -1,0 +1,8 @@
+git branch
+- checks all branches
+ 
+git branch [branch name]
+- creates new branch
+
+git branch -d [branch name]
+- deletes branch
