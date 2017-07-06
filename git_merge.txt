@@ -1,0 +1,5 @@
+git merge [branch] [branch]
+
+git merge --abort
+- restore files to state before merge
+

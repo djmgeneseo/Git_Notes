@@ -1,0 +1,3 @@
+git show
+- See changes made to a commit compared to its parent.
+- don't need to know the parent id
