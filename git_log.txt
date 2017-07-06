@@ -1,1 +1,5 @@
 -'HEAD' means the current commit. 
+
+git log --graph --oneline [branch] [branch]
+- graphs branches
+- don't need --oneline
