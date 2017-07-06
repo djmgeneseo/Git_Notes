@@ -3,3 +3,9 @@ git merge [branch] [branch]
 git merge --abort
 - restore files to state before merge
 
+1. git checkout [branch 1]
+2. git merge [branch 2]
+
+OR
+
+git merge [branch 1] [branch 2]
