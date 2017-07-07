@@ -1,6 +1,6 @@
-git merge [branch] [branch]
+>git merge [branch] [branch]
 
-git merge --abort
+>git merge --abort
 - restore files to state before merge
 
 1. git checkout [branch 1]
@@ -8,7 +8,7 @@ git merge --abort
 
 OR
 
-git merge [branch 1] [branch 2]
+>git merge [branch 1] [branch 2]
 
 - Once merge is called, you need to manually sift through code, making sure to delete all special git characters while resolving conflicts.
 - Once the file's inspected and resolved (manually), save file, close-out, and 'git add .' 'git commit' (or git commit -m "...").

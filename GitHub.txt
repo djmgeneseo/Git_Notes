@@ -1,15 +1,50 @@
-Big plus, top-right-hand side of github to start repository
+- Big plus, top-right-hand side of github to start repository
 
-Usually only use readme upon making repository when there is no other file to keep, that way you can have a starting commit to work with
+- Usually only use readme upon making repository when there is no other file to keep, that way you can have a starting commit to work with
 
-git remote
+>git remote
 - allows you to view all of your repositories on github
 
-git remote add [name of repository] [URL]
+>git remote add [name of remote repository] [URL]
 - can be named anything you want, and will always point to the repository's URL
 - the standard name for one remote is 'origin'
 
-git remote -v 
+>git remote -v 
 - v stands for "verbose," which means that git will display more information
 
-git push [remote to push to] [local branch to push]
+>git push [remote to push to] [local branch to push]
+
+-can create files directly on your remote repository's github page
+
+>git pull [remote repository to pull from] [local branch]
+
+-forking on github makes a secondary remote repository in the existing remote repository
+
+- settings -> collaborators
+
+- What happens when the leading github master branch commit is different from the local commit? (Can happen when working from two diff computers)
+
+>git pull [remote repository] [local branch]
+- If the local is different from github, then it's the same as saying: 
+	git fetch [remote repository]
+	git merge [local branch] [remote repository's branch (origin/master)]
+
+>git fetch [remote repository]
+- update all local copies of every branch for the remote repository
+- can inspect local copies by running git log origin/master OR git diff origin/master master
+- fetch updates origin/master branch with a new commit; NOT the master branch. Conflict resolution is required.
+- fetch didn't behave the way udacity claims, so I used pull
+
+- when your branch is ahead by x amount of commits, this means that you've already commited ontop of the original branch received from the remote repository (origin). So you ned to push the local commit onto github in order to ensure that github is up-to-date with your local repository, assuming that the remote repository wasn't changed while you were offline programming.
+
+>git pull [remote repository (origin)]
+- updates origin/master on local and attempts to merge master with origin/master (on local, still)
+- "<<<<<HEAD" down to "=====" are your changes in your branch, whereas that below "=====" are changes found in the new commit from origin/master.
+- After resolving conflicts, add recipe and commit. 
+
+- pull request is REALLY just merge request, so you're requesting that someone pushes your branch into origin/master on github's remote repository. BUT, github decided to name it pull request. Pick a branch to request the pull with, click pull request, and choose the repository (the tab is named "base fork:") that denotes your fork (very left tab in tree of options).
+
+- ************ ONLY MAKE CHANGES TO MASTER VIA PULL REQUESTS ************
+
+git push [remote repository (origin)] [branch to push]
+

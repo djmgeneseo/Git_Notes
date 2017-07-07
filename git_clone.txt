@@ -1,4 +1,4 @@
-'git clone [url without brackets]'
+>git clone [URL]
 - Downloads github repository from website url
 - type in 'cd [name of repository]'
 - type 'git log' to trace change log
@@ -6,3 +6,5 @@
 	 git diff 3e42136a76cf78c6c421cd720427bf6337c2d623 3884eab839af1e82c44267484cf2945a766081f3
 
 - might need to scroll down or hit enter to see all results
+
+- When you clone a remote repository from github, it automatically points to the remote repository. You can check with 'git remote.'

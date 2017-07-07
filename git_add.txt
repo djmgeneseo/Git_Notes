@@ -1,7 +1,7 @@
-git add 'file name' [without the '']
+> git add 'file name' [without the '']
 - adds file to staging area, which primes it to be committed into repository
 
-git add .
+> git add .
 - adds all files in folder to staging area
 
 -staging area saves after exiting bash, even if you do not commit before exiting.

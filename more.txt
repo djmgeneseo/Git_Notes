@@ -1,8 +1,11 @@
-git config --global core.editor "'C:/Program Files/Sublime Text 3/sublime_text.exe' -n -w"
+>git config --global core.editor "'C:/Program Files/Sublime Text 3/sublime_text.exe' -n -w"
 - Allocates sublime as global editor
 
-ls -a
+>ls -a
 - reveals hidden documentation in directory
 
-git config --global credential.helper wincred
+>git config --global credential.helper wincred
 - remembers password for github, so you won't need to constantly re-input upon commit to github
+
+>wq
+- exits out of text editor windows in git

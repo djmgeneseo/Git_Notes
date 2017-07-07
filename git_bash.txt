@@ -14,5 +14,3 @@ pwd 			      # print working directory - shows what directory you are in
 (touch ~/.bashrc  vim~/.bashrc   <esc>:wq   )
 
 *NEW ALIASES*
-dir is now dir -CF                           # list the files in this directory
-
