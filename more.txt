@@ -23,4 +23,4 @@
 - alias subl='C:/Program\ Files/Sublime\ Text\ 3/sublime_text.exe'
 - subl 'file name' to open with sublime
 
-git config --global core.editor "'C:/Program\ Files/Sublime\ Text\ 3/sublime_text.exe' -w"
+git config --global credential.helper wincred
