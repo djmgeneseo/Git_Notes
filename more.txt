@@ -9,3 +9,18 @@
 
 >wq
 - exits out of text editor windows in git
+
+>touch .bashrc
+- should follow 'cd' command, to ensure you're in home directory.
+- creates the profile file
+
+>~/.bashrc
+- opens profile where aliases are stored
+
+>vim .bashrc
+- press 'i' to enter insert mode
+- exit and save with 'esc' and ':wq', or don't save with ':q!'
+- alias subl='C:/Program\ Files/Sublime\ Text\ 3/sublime_text.exe'
+- subl 'file name' to open with sublime
+
+git config --global core.editor "'C:/Program\ Files/Sublime\ Text\ 3/sublime_text.exe' -w"
