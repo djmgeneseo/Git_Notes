@@ -9,3 +9,5 @@
 
 >wq
 - exits out of text editor windows in git
+
+<shift-home> for more help
